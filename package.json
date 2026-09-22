@@ -1,0 +1,19 @@
+{
+  "name": "jev-router",
+  "version": "0.2.0",
+  "description": "One command in front of every coding agent you have installed. Jev (TypeSafe System One, via OpenRouter) decides who takes each request; the conversation follows you across agents.",
+  "type": "module",
+  "bin": {
+    "jev-router": "./bin/jev.js",
+    "jev": "./bin/jev.js"
+  },
+  "scripts": {
+    "start": "node bin/jev.js"
+  },
+  "engines": {
+    "node": ">=26.4"
+  },
+  "dependencies": {
+    "@opentui/core": "0.5.11"
+  }
+}
